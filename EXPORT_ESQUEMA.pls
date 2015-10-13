@@ -14,7 +14,7 @@ q varchar2(1) := chr(39); -- single quote
 
 
 BEGIN
-
+/* definir esquema origen: source_schema */
 /* definir esquema origen: source_schema */
 /* utilitzo SYS_CONTEXT:  http://download.oracle.com/docs/cd/B12037_01/server.101/b10759/functions150.htm */
 comanda := 'SELECT SYS_CONTEXT (''USERENV'',''SESSION_USER'') FROM DUAL';
